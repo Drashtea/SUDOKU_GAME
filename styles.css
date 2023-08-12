@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(237, 212, 237);
+}
+body.dark
+{
+    background-color: rgb(114, 52, 93);
+    color:white;
+}
+#board
+{
+    padding-top:10px;
+    margin-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    width: 600px;
+    height: 600px;
+}
+.tile
+{
+    border : 1px solid black;
+    width:60px;
+    height:60px;
+    text-align: center;
+    margin: 0px;
+    vertical-align: middle;
+    font-size: 40pt;
+}
+#hex {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(116, 22, 22);
+}
+h1{
+    font-size: 45pt;
+}
+
+.hidden
+{
+    display: none;
+}
+#setup-game
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+/*children of setup game*/
+#setup-game > *
+{
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.start-btn
+{
+    justify-self: center;
+}
+
+p#timer,p#lives
+{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+#game
+{
+    display: flex;
+    justify-content: center;
+}
+button
+{
+    justify-self: center;
+}
+#number-container >p
+{
+    border:1px solid black;
+    border-radius: 20% ;
+    width: 60px;
+    height: 60px;
+    font-size: 40pt;
+    margin-left: 50px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    text-align: center;   
+}
+p.selected
+{
+    background-color:cadetblue;
+    cursor:pointer;
+}
+p.incorrect
+{
+    color:red;
+}
+.rightBorder
+{
+      border-right: 4px solid black;
+}
+.bottonBorder
+{
+    border-bottom: 4px solid black;
+}
+footer
+{
+    background-color: rgb(228, 176, 186);
+    text-align: center;
+}
